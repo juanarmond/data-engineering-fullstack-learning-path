@@ -12,3 +12,4 @@ venv/
 .DS_Store
 .vscode/
 .idea/
+.docs-consistency-preprompt.local.md

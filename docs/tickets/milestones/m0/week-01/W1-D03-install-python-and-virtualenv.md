@@ -1,7 +1,7 @@
 # Ticket: Install Python and Virtual Environment Tooling
 
 ## Milestone
-Week 1 Onboarding
+M0
 
 ## Day
 D03

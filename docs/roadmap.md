@@ -2,29 +2,56 @@
 
 This project advances in weekly increments.
 
+## How To Use This File
+
+This roadmap gives high-level phase direction only.
+Detailed instructions live in milestone and week README files.
+
+Navigation order:
+1. `../README.md`
+2. `tickets/README.md`
+3. `tickets/milestones/m0/README.md`
+4. `tickets/milestones/m1/README.md`
+5. `tickets/milestones/m2/README.md`
+
 ## Current Phase
 
-## Onboarding Milestone: Week 1
+Active learning path:
+- `M0` onboarding (week-01)
+- `M1` data foundations (week-01 and week-02)
+- `M2` ingestion setup starter (week-01)
 
-Focus:
-- Create and secure a GitHub account.
-- Install Git and learn terminal basics.
-- Install Python 3.11+ and create a virtual environment.
-- Clone the repository.
-- Practice first branch, commit, and pull request.
+## Milestone Direction
 
-Tickets:
-- `docs/tickets/milestones/m0/week-01/`
+### M0
+Objective:
+- establish local setup and collaboration basics.
 
-## Next Phases (Not Yet Active)
+Details:
+- `docs/tickets/milestones/m0/README.md`
 
-- Milestone M0: repository foundation checks
-- Milestone M1: source selection and ingestion setup
-- Later: API and dashboard implementation milestones
+### M1
+Objective:
+- understand data and produce reproducible notebook-based analysis.
 
-## Weekly Update Model
+Details:
+- `docs/tickets/milestones/m1/README.md`
 
-At the end of each week:
-- review completed tickets,
-- capture blockers and lessons learned,
-- define the next week's tickets.
+### M2
+Objective:
+- define ingestion conventions and prepare automation scope.
+
+Details:
+- `docs/tickets/milestones/m2/README.md`
+
+### Later Milestones
+
+Later phases will cover API, dashboard, and deployment workflows.
+
+## Progression Rule
+
+Only move to the next week/milestone when:
+1. tickets are complete in order,
+2. required deliverables exist,
+3. review/handoff notes are completed,
+4. blockers and assumptions are documented.

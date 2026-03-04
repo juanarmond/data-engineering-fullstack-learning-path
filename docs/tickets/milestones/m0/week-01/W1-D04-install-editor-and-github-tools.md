@@ -1,7 +1,7 @@
 # Ticket: Install Editor and GitHub Workflow Tools
 
 ## Milestone
-Week 1 Onboarding
+M0
 
 ## Day
 D04

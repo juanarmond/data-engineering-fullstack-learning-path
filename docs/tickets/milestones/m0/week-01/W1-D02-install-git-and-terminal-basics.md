@@ -1,7 +1,7 @@
 # Ticket: Install Git and Learn Basic Terminal Commands
 
 ## Milestone
-Week 1 Onboarding
+M0
 
 ## Day
 D02

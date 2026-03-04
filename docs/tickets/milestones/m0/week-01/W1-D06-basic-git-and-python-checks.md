@@ -1,7 +1,7 @@
 # Ticket: Basic Git and Python Checks
 
 ## Milestone
-Week 1 Onboarding
+M0
 
 ## Day
 D06

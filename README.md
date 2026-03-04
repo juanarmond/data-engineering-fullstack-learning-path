@@ -1,89 +1,72 @@
 # Data Engineering and Full-Stack Learning Path
 
-A guided learning project to develop practical skills across data engineering, data science, backend, frontend, and DevOps by simulating real day-to-day engineering work.
+A guided project for learning by building.
 
-## Why This Project Exists
+This repository is designed for learners who want practical, job-relevant experience across data engineering and full-stack delivery, but need a clear sequence instead of random tutorials.
 
-This repository is designed to teach skills step by step.
-It is not a clone-and-run template where you immediately get a finished dashboard.
+## Project Introduction
 
-The goal is to learn by building, in the same order a real team would work.
+This is not a clone-and-run template.
 
-## End Goal
+It is a structured learning journey where you:
+- set up your engineering environment,
+- collect and understand real data,
+- build repeatable analysis habits,
+- prepare ingestion/automation foundations,
+- and progress toward API and dashboard implementation.
 
-By following the full journey, learners should be able to:
-- build practical skills with real engineering tools and workflows,
-- understand how day-to-day work happens across data, backend, and frontend tasks,
-- complete an end-to-end project experience from setup to a running dashboard,
-- finish with a portfolio project they can explain in interviews and show publicly.
+The structure mirrors real team workflow: small scoped tasks, explicit deliverables, and weekly handoffs.
 
-## Learning Model
+## Project Goal
 
-The project progresses in weekly cycles using:
-- roadmap phases,
-- milestone objectives,
-- daily tickets.
+Build an end-to-end portfolio project while learning core engineering behaviors:
+- planning before implementation,
+- writing reproducible work,
+- validating data quality,
+- documenting decisions,
+- and shipping incrementally.
 
-Each ticket simulates a realistic day of work and includes:
-- context,
-- tasks,
-- acceptance criteria,
-- verification steps.
+By the end of the full path, you should be able to explain both your technical choices and your delivery process.
 
-## Skills You Will Learn
+## Canonical Learning Path
 
-By progressing through this project, you will practice:
-- Git and GitHub workflow (branches, commits, pull requests),
-- CLI terminal commands and developer environment setup,
-- Python fundamentals for data and backend tasks,
-- Python package management with `pip` and Poetry,
-- code formatting and quality workflow with Black,
-- exploratory analysis with Jupyter notebooks,
-- data ingestion and validation basics,
-- data quality checks (schema checks, null checks, consistency checks),
-- data transformation and quality checks,
-- containerization basics with Docker,
-- cloud fundamentals on AWS,
-- API fundamentals for serving data,
-- dashboard integration and frontend-backend flow,
-- software architecture thinking and technical tradeoffs.
+Use this path in order:
+1. `docs/roadmap.md`
+2. `docs/tickets/README.md`
+3. `docs/tickets/milestones/m0/README.md`
+4. `docs/tickets/milestones/m1/README.md`
+5. `docs/tickets/milestones/m2/README.md`
 
-## Current Status
+Then follow each milestone's week/day tickets in sequence.
 
-Current active scope: Onboarding Milestone, Week 1.
+## Current Scope
 
-Start here:
-- `docs/tickets/milestones/m0/week-01/`
-- `docs/tickets/README.md`
+- `M0` onboarding fundamentals
+- `M1` data foundations and notebook reproducibility
+- `M2` ingestion setup starter scope
 
-## Ticket Organization
+## Milestones
 
-Tickets follow this structure:
-- `docs/tickets/milestones/<milestone>/week-<nn>/`
+- `M0`: `docs/tickets/milestones/m0/README.md`
+- `M1`: `docs/tickets/milestones/m1/README.md`
+- `M2`: `docs/tickets/milestones/m2/README.md`
 
-Each milestone is split into weekly tasks.
-Inside every week folder, there is a `README.md` that explains:
-- what you will work on that week,
-- what skills you are expected to practice,
-- what learning materials to read (including links).
+## Free Data Sources
 
-Examples:
-- `docs/tickets/milestones/m0/week-01/`
-- `docs/tickets/milestones/m1/week-01/`
-- `docs/tickets/milestones/m2/week-01/`
+Always verify license, attribution, and usage terms before using a source.
 
-## Weekly Progression
+Football/sports-friendly options:
+- Football-Data (CSV historical results): https://www.football-data.co.uk/data.php
+- football-data.org (free API tier available): https://www.football-data.org/
+- FiveThirtyEight datasets (public GitHub repo): https://github.com/fivethirtyeight/data
 
-At the end of each week, the project is updated with the next set of tickets.
-That means learners always move forward in small, realistic increments.
-
-Roadmap:
-- `docs/roadmap.md`
-
-## Data Source (Used in Later Weeks)
-
-Public football datasets will come from:
-- https://www.football-data.co.uk/data.php
+General open data sources:
+- World Bank Open Data: https://data.worldbank.org/
+- Our World in Data datasets: https://ourworldindata.org/data
+- U.S. Data.gov portal: https://www.data.gov/
+- EU Open Data portal: https://data.europa.eu/
+- UCI Machine Learning Repository: https://archive.ics.uci.edu/
+- Kaggle public datasets (free account): https://www.kaggle.com/datasets
 
 ## Community
 

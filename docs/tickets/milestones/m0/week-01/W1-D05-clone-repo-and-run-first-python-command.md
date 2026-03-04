@@ -1,7 +1,7 @@
 # Ticket: Clone Repository and Run First Python Command
 
 ## Milestone
-Week 1 Onboarding
+M0
 
 ## Day
 D05
@@ -21,7 +21,7 @@ Before advanced checks, beginners should confirm local repo setup and Python exe
 - Open the project on GitHub and click **Fork**.
 - In your fork, copy the clone URL.
 - Clone locally: `git clone <your-fork-url>`.
-- Enter folder: `cd football-data-platform`.
+- Enter folder: `cd <your-repo-folder>`.
 - Run: `python -c "print('setup-ok')"`.
 
 ## Acceptance Criteria

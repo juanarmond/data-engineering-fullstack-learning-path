@@ -1,7 +1,7 @@
 # Ticket: Create Core Accounts
 
 ## Milestone
-Week 1 Onboarding
+M0
 
 ## Day
 D01

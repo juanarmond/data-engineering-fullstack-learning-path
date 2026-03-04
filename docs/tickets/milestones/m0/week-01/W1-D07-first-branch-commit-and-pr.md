@@ -1,7 +1,7 @@
 # Ticket: Create First Branch, Commit, and Pull Request
 
 ## Milestone
-Week 1 Onboarding
+M0
 
 ## Day
 D07
