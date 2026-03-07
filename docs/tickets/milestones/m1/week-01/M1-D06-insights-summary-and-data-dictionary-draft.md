@@ -29,3 +29,9 @@ Clear documentation converts exploration work into reusable project knowledge.
 
 ## Notes
 This is a draft artifact and can evolve in later milestones.
+## Supplemental Reading
+
+- pandas Documentation: https://pandas.pydata.org/docs/
+- Jupyter Documentation: https://docs.jupyter.org/
+- Python pathlib: https://docs.python.org/3/library/pathlib.html
+

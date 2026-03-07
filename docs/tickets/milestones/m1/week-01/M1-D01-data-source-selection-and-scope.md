@@ -29,3 +29,9 @@ After onboarding, the learner should start with real data and limit scope to avo
 
 ## Notes
 Keep the first scope intentionally small. Breadth can be added in later milestones.
+## Supplemental Reading
+
+- pandas Documentation: https://pandas.pydata.org/docs/
+- Jupyter Documentation: https://docs.jupyter.org/
+- Python pathlib: https://docs.python.org/3/library/pathlib.html
+

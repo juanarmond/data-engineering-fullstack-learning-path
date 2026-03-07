@@ -6,8 +6,16 @@
 - Install and configure Git.
 - Use essential CLI terminal commands (`pwd`, `ls`, `cd`, `mkdir`, `git status`).
 - Install Python and create a virtual environment.
+- Install and verify Poetry + Black as the project tooling standard.
+- Create `local/learning-workspace/m0/week-01/` for local milestone practice.
 - Clone a repository and run basic Python commands.
 - Create a branch, commit changes, and open a pull request.
+
+## Start-of-Week Folder Setup (Mandatory)
+
+Run before Day 1:
+- `mkdir -p local/learning-workspace/m0/week-01`
+- `ls -la local/learning-workspace/m0/week-01`
 
 ## Skills Focus
 
@@ -33,10 +41,10 @@ Wikipedia (concept support):
 
 ## Tickets in This Week
 
-- `W1-D01-create-accounts.md`
-- `W1-D02-install-git-and-terminal-basics.md`
-- `W1-D03-install-python-and-virtualenv.md`
-- `W1-D04-install-editor-and-github-tools.md`
-- `W1-D05-clone-repo-and-run-first-python-command.md`
-- `W1-D06-basic-git-and-python-checks.md`
-- `W1-D07-first-branch-commit-and-pr.md`
+- [W1-D01-create-accounts.md](W1-D01-create-accounts.md)
+- [W1-D02-install-git-and-terminal-basics.md](W1-D02-install-git-and-terminal-basics.md)
+- [W1-D03-install-python-and-virtualenv.md](W1-D03-install-python-and-virtualenv.md)
+- [W1-D04-install-editor-and-github-tools.md](W1-D04-install-editor-and-github-tools.md)
+- [W1-D05-clone-repo-and-run-first-python-command.md](W1-D05-clone-repo-and-run-first-python-command.md)
+- [W1-D06-basic-git-and-python-checks.md](W1-D06-basic-git-and-python-checks.md)
+- [W1-D07-first-branch-commit-and-pr.md](W1-D07-first-branch-commit-and-pr.md)

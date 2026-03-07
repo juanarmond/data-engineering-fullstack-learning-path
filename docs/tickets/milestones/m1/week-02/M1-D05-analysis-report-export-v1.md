@@ -17,6 +17,7 @@ A notebook-native report keeps all analysis and interpretation together for begi
 - Include dataset scope, profiling metrics, and quality outcomes.
 - Include top risks and unresolved questions.
 - Optionally export a markdown copy if the environment supports it.
+- Keep report summary under a clearly labeled notebook heading so reviewers can find it quickly.
 
 ## Metric and Check Reminder
 Use the same definitions from previous tickets:
@@ -34,3 +35,9 @@ Use the same definitions from previous tickets:
 
 ## Notes
 Keep reporting concise and notebook-first.
+## Supplemental Reading
+
+- pandas Documentation: https://pandas.pydata.org/docs/
+- Jupyter Documentation: https://docs.jupyter.org/
+- Python pathlib: https://docs.python.org/3/library/pathlib.html
+

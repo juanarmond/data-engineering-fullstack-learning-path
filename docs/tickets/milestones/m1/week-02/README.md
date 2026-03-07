@@ -6,6 +6,11 @@ You should have from Week 1:
 - A working notebook that loads and profiles the selected dataset.
 - Initial quality checks and insights notes.
 - A draft data dictionary.
+- Week folder created: `local/learning-workspace/m1/week-02/`.
+
+Run these checks before Day 1:
+- `ls -la local/learning-workspace/m1/week-01`
+- `ls -la local/learning-workspace/m1/week-02`
 
 ## OS Command Note (Important)
 
@@ -15,19 +20,31 @@ Command syntax and shell behavior vary by OS. If a command fails, research the c
 
 | Day | Ticket | Estimated Time | Difficulty | Required Deliverable |
 |---|---|---|---|---|
-| D01 | `M1-D01-reproducibility-check-and-reset.md` | 60-90 min | Beginner | `notebooks/m1/week-02/m1_w2_analysis.ipynb` (reproducibility section) |
-| D02 | `M1-D02-notebook-refactor-for-repeatability.md` | 90-120 min | Intermediate | Same notebook refactored with clean section structure |
-| D03 | `M1-D03-profile-metrics-notebook-module.md` | 90-120 min | Intermediate | Notebook section with reusable profiling cells/functions |
-| D04 | `M1-D04-quality-checks-notebook-module.md` | 90-120 min | Intermediate | Notebook section with reusable quality-check cells/functions |
-| D05 | `M1-D05-analysis-report-export-v1.md` | 60-90 min | Intermediate | Notebook-generated report summary section (and optional export) |
-| D06 | `M1-D06-notebook-runbook-and-troubleshooting.md` | 60-90 min | Beginner/Intermediate | Notebook section documenting run steps and troubleshooting |
-| D07 | `M1-D07-weekly-review-and-m2-prep.md` | 45-60 min | Beginner | Notebook final review/handoff section for M2 |
+| D01 | [M1-D01-reproducibility-check-and-reset.md](M1-D01-reproducibility-check-and-reset.md) | 60-90 min | Beginner | `local/learning-workspace/m1/week-02/notebooks/m1_w2_analysis.ipynb` (reproducibility section) |
+| D02 | [M1-D02-notebook-refactor-for-repeatability.md](M1-D02-notebook-refactor-for-repeatability.md) | 90-120 min | Intermediate | Same notebook (`local/learning-workspace/m1/week-02/notebooks/m1_w2_analysis.ipynb`) refactored with clean section structure |
+| D03 | [M1-D03-profile-metrics-notebook-module.md](M1-D03-profile-metrics-notebook-module.md) | 90-120 min | Intermediate | Reusable profiling section in `local/learning-workspace/m1/week-02/notebooks/m1_w2_analysis.ipynb` |
+| D04 | [M1-D04-quality-checks-notebook-module.md](M1-D04-quality-checks-notebook-module.md) | 90-120 min | Intermediate | Reusable quality-check section in `local/learning-workspace/m1/week-02/notebooks/m1_w2_analysis.ipynb` |
+| D05 | [M1-D05-analysis-report-export-v1.md](M1-D05-analysis-report-export-v1.md) | 60-90 min | Intermediate | Notebook-generated report summary section (and optional export) |
+| D06 | [M1-D06-confluence-runbook-and-troubleshooting.md](M1-D06-confluence-runbook-and-troubleshooting.md) | 60-90 min | Beginner/Intermediate | Notebook section documenting run steps and troubleshooting |
+| D07 | [M1-D07-weekly-review-and-m2-prep.md](M1-D07-weekly-review-and-m2-prep.md) | 45-60 min | Beginner | Notebook final review/handoff section for M2 |
 
 ## Review Checkpoints
 
 - Checkpoint A (after D02): notebook is readable and reproducible.
 - Checkpoint B (after D04): profiling and quality sections are reusable and rerunnable.
 - Checkpoint C (after D07): report, runbook notes, and M2 handoff are complete in notebook.
+
+## Notebook Organization Rule (Mandatory)
+
+All Week 2 notebook work must be organized with explicit markdown section headings.
+Minimum required section flow:
+- `Reproducibility`
+- `Config`
+- `Profile Metrics`
+- `Quality Checks`
+- `Report Summary`
+- `Runbook/Troubleshooting`
+- `Weekly Review/Handoff`
 
 ## Troubleshooting (By Theme)
 
@@ -73,12 +90,21 @@ Wikipedia (concept support):
 - Data profiling: https://en.wikipedia.org/wiki/Data_profiling
 - Data validation: https://en.wikipedia.org/wiki/Data_validation
 
+## Mandatory Tooling Requirement
+
+Before completing Week 2, you must complete:
+- [docs/guides/poetry-black-learning-track.md](../../../guides/poetry-black-learning-track.md)
+
+Recommended timing:
+- After D02 (when notebook structure is stable), or
+- Before D07 review/handoff.
+
 ## Tickets in This Week
 
-- `M1-D01-reproducibility-check-and-reset.md`
-- `M1-D02-notebook-refactor-for-repeatability.md`
-- `M1-D03-profile-metrics-notebook-module.md`
-- `M1-D04-quality-checks-notebook-module.md`
-- `M1-D05-analysis-report-export-v1.md`
-- `M1-D06-notebook-runbook-and-troubleshooting.md`
-- `M1-D07-weekly-review-and-m2-prep.md`
+- [M1-D01-reproducibility-check-and-reset.md](M1-D01-reproducibility-check-and-reset.md)
+- [M1-D02-notebook-refactor-for-repeatability.md](M1-D02-notebook-refactor-for-repeatability.md)
+- [M1-D03-profile-metrics-notebook-module.md](M1-D03-profile-metrics-notebook-module.md)
+- [M1-D04-quality-checks-notebook-module.md](M1-D04-quality-checks-notebook-module.md)
+- [M1-D05-analysis-report-export-v1.md](M1-D05-analysis-report-export-v1.md)
+- [M1-D06-confluence-runbook-and-troubleshooting.md](M1-D06-confluence-runbook-and-troubleshooting.md)
+- [M1-D07-weekly-review-and-m2-prep.md](M1-D07-weekly-review-and-m2-prep.md)

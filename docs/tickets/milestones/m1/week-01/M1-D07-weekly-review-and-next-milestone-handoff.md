@@ -29,3 +29,9 @@ Weekly review keeps momentum and reduces confusion before Week 2 reproducibility
 
 ## Notes
 Avoid starting Week 2 implementation in this ticket; focus on handoff clarity.
+## Supplemental Reading
+
+- pandas Documentation: https://pandas.pydata.org/docs/
+- Jupyter Documentation: https://docs.jupyter.org/
+- Python pathlib: https://docs.python.org/3/library/pathlib.html
+

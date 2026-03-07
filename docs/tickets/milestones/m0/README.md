@@ -16,14 +16,16 @@ By the end of M0, you should be able to:
 
 ## Navigation
 
-- Project README: `../../../README.md`
-- Roadmap: `../../../roadmap.md`
-- Tickets guide: `../../README.md`
+- Project README: [../../../../README.md](../../../../README.md)
+- Roadmap: [../../../roadmap.md](../../../roadmap.md)
+- Tickets guide: [../../README.md](../../README.md)
 
 ## How To Start
-1. Read `week-01/README.md`.
-2. Complete Day 1 to Day 7 in order.
-3. Finish the weekly review ticket before moving to M1.
+1. Create milestone/week workspace folders:
+   - `mkdir -p local/learning-workspace/m0/week-01`
+2. Read [week-01/README.md](week-01/README.md).
+3. Complete Day 1 to Day 7 in order.
+4. Finish the weekly review ticket before moving to M1.
 
 ## Exit Criteria
 You are ready for M1 when:

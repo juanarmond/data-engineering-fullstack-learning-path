@@ -26,6 +26,7 @@ Profile metrics are simple numbers that describe the dataset shape and completen
 - Build reusable notebook cells/functions for row/column count, null percentages, date range, and key unique counts.
 - Parameterize key values in a config cell (for example input path and key columns).
 - Validate profiling outputs against Week 1 results.
+- Ensure profiling section has a clear markdown title so outputs are easy to locate.
 
 ## Expected Output Example
 - `row_count = ...`
@@ -49,3 +50,9 @@ Python and notebook launch commands can vary by OS. If examples fail, research t
 
 ## Notes
 Keep implementation in notebook form only for this week.
+## Supplemental Reading
+
+- pandas Documentation: https://pandas.pydata.org/docs/
+- Jupyter Documentation: https://docs.jupyter.org/
+- Python pathlib: https://docs.python.org/3/library/pathlib.html
+

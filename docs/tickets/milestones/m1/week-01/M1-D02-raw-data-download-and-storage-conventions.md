@@ -32,3 +32,9 @@ Command usage can vary by OS and shell. If a command in this ticket does not wor
 
 ## Notes
 Do not automate download in this ticket.
+## Supplemental Reading
+
+- pandas Documentation: https://pandas.pydata.org/docs/
+- Jupyter Documentation: https://docs.jupyter.org/
+- Python pathlib: https://docs.python.org/3/library/pathlib.html
+

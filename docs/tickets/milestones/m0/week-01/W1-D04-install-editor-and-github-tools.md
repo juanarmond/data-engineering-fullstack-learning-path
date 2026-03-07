@@ -35,3 +35,9 @@ A usable editor and source-control workflow remove major beginner friction.
 
 ## Notes
 Document your editor setup in personal notes for future machines.
+## Supplemental Reading
+
+- Git Documentation: https://git-scm.com/doc
+- Python Tutorial: https://docs.python.org/3/tutorial/
+- VS Code Docs: https://code.visualstudio.com/docs
+

@@ -24,6 +24,7 @@ Quality checks are simple rules to detect data problems early. For this ticket, 
 - Implement checks for required columns, null thresholds, duplicates, and basic types.
 - Show pass/fail summary for each check.
 - Display sample failing rows when checks fail.
+- Ensure quality-check outputs are grouped under a clear markdown section heading.
 
 ## Expected Output Example
 - `required_columns_check: PASS/FAIL`
@@ -47,3 +48,9 @@ Notebook and filesystem commands can vary by OS and shell. If a command fails, r
 
 ## Notes
 Keep this notebook-based; script extraction can happen in a later milestone.
+## Supplemental Reading
+
+- pandas Documentation: https://pandas.pydata.org/docs/
+- Jupyter Documentation: https://docs.jupyter.org/
+- Python pathlib: https://docs.python.org/3/library/pathlib.html
+

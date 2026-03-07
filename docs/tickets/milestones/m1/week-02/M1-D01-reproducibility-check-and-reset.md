@@ -13,7 +13,7 @@ Confirm that Week 1 outputs can be reproduced from a clean start.
 Engineering work must be reproducible by another contributor on another machine.
 
 ## Tasks
-- Re-open the Week 1 notebook from a fresh kernel.
+- Re-open `local/learning-workspace/m1/week-01/notebooks/m1_w1_lessons.ipynb` from a fresh kernel.
 - Re-run all cells top to bottom.
 - Record any manual steps that were required but not documented.
 - Fix notebook order issues (hidden state, missing imports, out-of-order cells).
@@ -32,3 +32,8 @@ Kernel restart flow, terminal commands, and environment handling vary by OS and 
 
 ## Notes
 Do not add new analysis scope in this ticket.
+## Supplemental Reading
+
+- pandas Documentation: https://pandas.pydata.org/docs/
+- Jupyter Documentation: https://docs.jupyter.org/
+- Python pathlib: https://docs.python.org/3/library/pathlib.html

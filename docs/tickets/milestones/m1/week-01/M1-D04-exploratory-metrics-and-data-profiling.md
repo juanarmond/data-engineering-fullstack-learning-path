@@ -18,11 +18,13 @@ Before pipeline work, teams profile data to identify obvious quality and modelin
 - Check unique values for key identifiers (teams, match IDs if available).
 - Assess date range and basic distribution for key numeric fields.
 - Write a short summary of what looks healthy vs. risky.
+- Keep profiling work inside a dedicated notebook section under a clear markdown heading.
 
 ## Acceptance Criteria
 - Core profiling metrics are produced in the notebook.
 - At least three data risks or caveats are identified.
 - Findings are written in plain language.
+- Profiling outputs appear in an explicitly labeled section.
 
 ## Verification
 - Re-run notebook and confirm all profiling outputs are reproducible.
@@ -30,3 +32,9 @@ Before pipeline work, teams profile data to identify obvious quality and modelin
 
 ## Notes
 Metrics should be simple and explainable, not exhaustive.
+## Supplemental Reading
+
+- pandas Documentation: https://pandas.pydata.org/docs/
+- Jupyter Documentation: https://docs.jupyter.org/
+- Python pathlib: https://docs.python.org/3/library/pathlib.html
+

@@ -19,14 +19,17 @@ By the end of M1, you should be able to:
 
 ## Navigation
 
-- Project README: `../../../README.md`
-- Roadmap: `../../../roadmap.md`
-- Tickets guide: `../../README.md`
+- Project README: [../../../../README.md](../../../../README.md)
+- Roadmap: [../../../roadmap.md](../../../roadmap.md)
+- Tickets guide: [../../README.md](../../README.md)
 
 ## How To Start
-1. Read `week-01/README.md`.
-2. Complete all Week 1 tickets in order.
-3. Continue with `week-02/README.md` and finish Week 2 in order.
+1. Create milestone/week workspace folders:
+   - `mkdir -p local/learning-workspace/m1/week-01`
+   - `mkdir -p local/learning-workspace/m1/week-02`
+2. Read [week-01/README.md](week-01/README.md).
+3. Complete all Week 1 tickets in order.
+4. Continue with [week-02/README.md](week-02/README.md) and finish Week 2 in order.
 
 ## Exit Criteria
 You are ready for M2 when:

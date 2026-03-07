@@ -34,3 +34,9 @@ Before writing code, a beginner needs identity and collaboration access.
 
 ## Notes
 Use one email dedicated to developer tooling if possible.
+## Supplemental Reading
+
+- Git Documentation: https://git-scm.com/doc
+- Python Tutorial: https://docs.python.org/3/tutorial/
+- VS Code Docs: https://code.visualstudio.com/docs
+

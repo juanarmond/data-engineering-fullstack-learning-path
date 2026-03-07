@@ -18,6 +18,7 @@ Week-end review ensures lessons learned are captured before ingestion automation
 - List known data issues and technical debt.
 - Define what should become automated ingestion tasks in M2.
 - Propose first M2 ticket priorities.
+- Keep this weekly review in a dedicated final section heading for fast handoff review.
 
 ## Acceptance Criteria
 - Weekly summary is complete and concise in the notebook.
@@ -30,3 +31,9 @@ Week-end review ensures lessons learned are captured before ingestion automation
 
 ## Notes
 This ticket is for closure and planning, not new implementation.
+## Supplemental Reading
+
+- pandas Documentation: https://pandas.pydata.org/docs/
+- Jupyter Documentation: https://docs.jupyter.org/
+- Python pathlib: https://docs.python.org/3/library/pathlib.html
+

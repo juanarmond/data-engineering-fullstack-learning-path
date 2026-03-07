@@ -13,3 +13,6 @@ venv/
 .vscode/
 .idea/
 .docs-consistency-preprompt.local.md
+
+# Local milestone execution sandbox (do not commit)
+local/learning-workspace/

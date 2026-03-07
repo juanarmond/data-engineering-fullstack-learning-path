@@ -37,3 +37,9 @@ Git and terminal skills are required for almost every engineering role.
 
 ## Notes
 Keep a short personal cheat sheet for terminal commands.
+## Supplemental Reading
+
+- Git Documentation: https://git-scm.com/doc
+- Python Tutorial: https://docs.python.org/3/tutorial/
+- VS Code Docs: https://code.visualstudio.com/docs
+

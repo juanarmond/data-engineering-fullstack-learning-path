@@ -31,11 +31,11 @@ By the end of the full path, you should be able to explain both your technical c
 ## Canonical Learning Path
 
 Use this path in order:
-1. `docs/roadmap.md`
-2. `docs/tickets/README.md`
-3. `docs/tickets/milestones/m0/README.md`
-4. `docs/tickets/milestones/m1/README.md`
-5. `docs/tickets/milestones/m2/README.md`
+1. [docs/roadmap.md](docs/roadmap.md)
+2. [docs/tickets/README.md](docs/tickets/README.md)
+3. [docs/tickets/milestones/m0/README.md](docs/tickets/milestones/m0/README.md)
+4. [docs/tickets/milestones/m1/README.md](docs/tickets/milestones/m1/README.md)
+5. [docs/tickets/milestones/m2/README.md](docs/tickets/milestones/m2/README.md)
 
 Then follow each milestone's week/day tickets in sequence.
 
@@ -43,13 +43,25 @@ Then follow each milestone's week/day tickets in sequence.
 
 - `M0` onboarding fundamentals
 - `M1` data foundations and notebook reproducibility
-- `M2` ingestion setup starter scope
+- `M2` local ETL foundations and reliability (week-01 to week-04)
+
+## Mandatory Tooling Standard
+
+All learners must complete the Poetry + Black setup using:
+- [docs/guides/poetry-black-learning-track.md](docs/guides/poetry-black-learning-track.md)
+
+This is a required part of the learning path and is validated during milestone checks.
+
+## Guides
+
+Practical command references are available in:
+- [docs/guides/README.md](docs/guides/README.md)
 
 ## Milestones
 
-- `M0`: `docs/tickets/milestones/m0/README.md`
-- `M1`: `docs/tickets/milestones/m1/README.md`
-- `M2`: `docs/tickets/milestones/m2/README.md`
+- `M0`: [docs/tickets/milestones/m0/README.md](docs/tickets/milestones/m0/README.md)
+- `M1`: [docs/tickets/milestones/m1/README.md](docs/tickets/milestones/m1/README.md)
+- `M2`: [docs/tickets/milestones/m2/README.md](docs/tickets/milestones/m2/README.md)
 
 ## Free Data Sources
 
@@ -70,5 +82,5 @@ General open data sources:
 
 ## Community
 
-- Contributing guide: `CONTRIBUTING.md`
-- Code of conduct: `CODE_OF_CONDUCT.md`
+- Contributing guide: [CONTRIBUTING.md](CONTRIBUTING.md)
+- Code of conduct: [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md)

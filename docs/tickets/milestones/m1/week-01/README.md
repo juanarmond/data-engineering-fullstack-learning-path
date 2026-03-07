@@ -4,14 +4,18 @@
 
 You should already have from M0:
 - Git installed and working.
-- Python and pip working from terminal.
+- Python and Poetry working from terminal.
 - A cloned local copy of this repository.
+- `local/learning-workspace/` created in repo root.
+- Week folder created: `local/learning-workspace/m1/week-01/`.
 
 Run these checks:
 - `python --version`
-- `python -m pip --version`
-- `python -m pip install jupyter pandas`
-- `python -m jupyter --version`
+- `poetry --version`
+- `poetry run python --version`
+- `poetry run jupyter --version`
+- `jupyter kernelspec list`
+- `ls -la local/learning-workspace/m1/week-01`
 
 ## Python-for-Data Micro Bridge
 
@@ -33,19 +37,28 @@ Terminal commands can vary by OS (macOS, Linux, Windows). If a command in a tick
 
 | Day | Ticket | Estimated Time | Difficulty | Required Deliverable |
 |---|---|---|---|---|
-| D01 | `M1-D01-data-source-selection-and-scope.md` | 60-90 min | Beginner | `docs/notes/m1/week-01/d01-source-scope.md` |
-| D02 | `M1-D02-raw-data-download-and-storage-conventions.md` | 60-90 min | Beginner | Raw file(s) under `data/raw/` + `docs/notes/m1/week-01/d02-storage-conventions.md` |
-| D03 | `M1-D03-first-jupyter-notebook-setup.md` | 90-120 min | Beginner | `notebooks/m1/week-01/m1_w1_d03_first_load.ipynb` |
-| D04 | `M1-D04-exploratory-metrics-and-data-profiling.md` | 90-120 min | Beginner/Intermediate | Updated notebook profiling section + `docs/notes/m1/week-01/d04-profile-summary.md` |
-| D05 | `M1-D05-data-quality-checks-v1.md` | 90-120 min | Intermediate | Updated notebook quality checks + `docs/notes/m1/week-01/d05-quality-checks.md` |
-| D06 | `M1-D06-insights-summary-and-data-dictionary-draft.md` | 60-90 min | Beginner | `docs/notes/m1/week-01/d06-insights.md` + `docs/notes/m1/week-01/data-dictionary-draft.md` |
-| D07 | `M1-D07-weekly-review-and-next-milestone-handoff.md` | 45-60 min | Beginner | `docs/notes/m1/week-01/d07-weekly-review.md` |
+| D01 | [M1-D01-data-source-selection-and-scope.md](M1-D01-data-source-selection-and-scope.md) | 60-90 min | Beginner | `docs/notes/m1/week-01/d01-source-scope.md` |
+| D02 | [M1-D02-raw-data-download-and-storage-conventions.md](M1-D02-raw-data-download-and-storage-conventions.md) | 60-90 min | Beginner | Raw file(s) under `data/raw/` + `docs/notes/m1/week-01/d02-storage-conventions.md` |
+| D03 | [M1-D03-first-jupyter-notebook-setup.md](M1-D03-first-jupyter-notebook-setup.md) | 90-120 min | Beginner | `local/learning-workspace/m1/week-01/notebooks/m1_w1_lessons.ipynb` |
+| D04 | [M1-D04-exploratory-metrics-and-data-profiling.md](M1-D04-exploratory-metrics-and-data-profiling.md) | 90-120 min | Beginner/Intermediate | Updated profiling section in `local/learning-workspace/m1/week-01/notebooks/m1_w1_lessons.ipynb` + `docs/notes/m1/week-01/d04-profile-summary.md` |
+| D05 | [M1-D05-data-quality-checks-v1.md](M1-D05-data-quality-checks-v1.md) | 90-120 min | Intermediate | Updated quality checks in `local/learning-workspace/m1/week-01/notebooks/m1_w1_lessons.ipynb` + `docs/notes/m1/week-01/d05-quality-checks.md` |
+| D06 | [M1-D06-insights-summary-and-data-dictionary-draft.md](M1-D06-insights-summary-and-data-dictionary-draft.md) | 60-90 min | Beginner | `docs/notes/m1/week-01/d06-insights.md` + `docs/notes/m1/week-01/data-dictionary-draft.md` |
+| D07 | [M1-D07-weekly-review-and-next-milestone-handoff.md](M1-D07-weekly-review-and-next-milestone-handoff.md) | 45-60 min | Beginner | `docs/notes/m1/week-01/d07-weekly-review.md` |
 
 ## Review Checkpoints
 
 - Checkpoint A (after D03): notebook opens, data loads, columns are visible.
 - Checkpoint B (after D05): profiling + quality outputs are reproducible.
 - Checkpoint C (after D07): all week deliverables exist and are readable.
+
+## Notebook Organization Rule (Mandatory)
+
+For every notebook created or updated in this week, use clear markdown section headings.
+Minimum section pattern:
+- `Load`
+- `Profile`
+- `Quality Checks`
+- `Insights/Notes`
 
 ## Troubleshooting (By Theme)
 
@@ -106,10 +119,10 @@ Wikipedia (concept support):
 
 ## Tickets in This Week
 
-- `M1-D01-data-source-selection-and-scope.md`
-- `M1-D02-raw-data-download-and-storage-conventions.md`
-- `M1-D03-first-jupyter-notebook-setup.md`
-- `M1-D04-exploratory-metrics-and-data-profiling.md`
-- `M1-D05-data-quality-checks-v1.md`
-- `M1-D06-insights-summary-and-data-dictionary-draft.md`
-- `M1-D07-weekly-review-and-next-milestone-handoff.md`
+- [M1-D01-data-source-selection-and-scope.md](M1-D01-data-source-selection-and-scope.md)
+- [M1-D02-raw-data-download-and-storage-conventions.md](M1-D02-raw-data-download-and-storage-conventions.md)
+- [M1-D03-first-jupyter-notebook-setup.md](M1-D03-first-jupyter-notebook-setup.md)
+- [M1-D04-exploratory-metrics-and-data-profiling.md](M1-D04-exploratory-metrics-and-data-profiling.md)
+- [M1-D05-data-quality-checks-v1.md](M1-D05-data-quality-checks-v1.md)
+- [M1-D06-insights-summary-and-data-dictionary-draft.md](M1-D06-insights-summary-and-data-dictionary-draft.md)
+- [M1-D07-weekly-review-and-next-milestone-handoff.md](M1-D07-weekly-review-and-next-milestone-handoff.md)
