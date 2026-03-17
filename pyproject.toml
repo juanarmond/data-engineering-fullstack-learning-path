@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "data-engineering-fullstack-learning-path"
+version = "0.1.0"
+description = "Learning-path tooling for notebook and ETL milestones."
+authors = ["Learning Path Maintainers"]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.13"
+pandas = "^2.3.0"
+jupyter = "^1.1.1"
+ipykernel = "^6.29.5"
+
+[tool.poetry.group.dev.dependencies]
+black = "^25.1.0"
+
+[tool.black]
+line-length = 88
+target-version = ["py311", "py312"]
+
+[build-system]
+requires = ["poetry-core>=1.9.0"]
+build-backend = "poetry.core.masonry.api"

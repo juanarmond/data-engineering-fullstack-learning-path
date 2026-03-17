@@ -17,7 +17,7 @@ Before pipeline work, teams profile data to identify obvious quality and modelin
 - Measure null counts/percentages per column.
 - Check unique values for key identifiers (teams, match IDs if available).
 - Assess date range and basic distribution for key numeric fields.
-- Write a short summary of what looks healthy vs. risky.
+- Write a short summary of what looks healthy vs. risky in `local/learning-workspace/m1/week-03/notes/d04-profile-summary.md`.
 - Keep profiling work inside a dedicated notebook section under a clear markdown heading.
 
 ## Acceptance Criteria
@@ -37,4 +37,3 @@ Metrics should be simple and explainable, not exhaustive.
 - pandas Documentation: https://pandas.pydata.org/docs/
 - Jupyter Documentation: https://docs.jupyter.org/
 - Python pathlib: https://docs.python.org/3/library/pathlib.html
-

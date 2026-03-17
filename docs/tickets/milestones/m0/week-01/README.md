@@ -1,5 +1,11 @@
 # Week 01 Summary (M0 Onboarding)
 
+## Entry Criteria (Before Starting)
+
+- No prior repo work is required.
+- You can open a terminal on your machine.
+- You can create the local practice folder in this repo.
+
 ## What You Will Learn This Week
 
 - Create and secure a GitHub account.
@@ -16,6 +22,21 @@
 Run before Day 1:
 - `mkdir -p local/learning-workspace/m0/week-01`
 - `ls -la local/learning-workspace/m0/week-01`
+- `git status`
+
+## Weekly Deliverables
+
+- GitHub account and security setup complete.
+- Git installed and basic terminal commands practiced.
+- Poetry-managed Python environment works for this repo.
+- Local practice workspace exists under `local/learning-workspace/m0/week-01/`.
+- First branch, commit, and PR workflow completed or rehearsed.
+
+## Review Checkpoints
+
+- Checkpoint A (after D03): Python, Poetry, and Black are installed and verifiable.
+- Checkpoint B (after D05): repo is cloned and local workspace path exists.
+- Checkpoint C (after D07): branch/commit/PR workflow is understandable end-to-end.
 
 ## Skills Focus
 
@@ -48,3 +69,11 @@ Wikipedia (concept support):
 - [W1-D05-clone-repo-and-run-first-python-command.md](W1-D05-clone-repo-and-run-first-python-command.md)
 - [W1-D06-basic-git-and-python-checks.md](W1-D06-basic-git-and-python-checks.md)
 - [W1-D07-first-branch-commit-and-pr.md](W1-D07-first-branch-commit-and-pr.md)
+
+## Exit Criteria (Definition of Done)
+
+Week 1 is complete when:
+- setup commands run successfully,
+- the learner knows where local milestone work belongs,
+- the Poetry + Black workflow is usable from this repo,
+- git status, branch, commit, and PR basics are no longer blocked by setup issues.

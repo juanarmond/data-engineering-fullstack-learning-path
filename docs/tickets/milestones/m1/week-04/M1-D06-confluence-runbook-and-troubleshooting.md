@@ -30,8 +30,8 @@ Confluence references:
   - `Troubleshooting`
   - `Open Issues / Next Actions`
 - Delivery format can be either:
-  - New markdown cell section inside the Week 2 notebook, or
-  - Separate markdown file (for example [docs/notes/m1/week-02/d06-runbook.md](../../../../notes/m1/week-02/d06-runbook.md)) linked from the notebook.
+  - New markdown cell section inside the Week 4 notebook, or
+  - Separate markdown file (recommended: `local/learning-workspace/m1/week-04/notes/d06-runbook.md`) linked from the notebook.
 - Include this required report content:
   - Notebook name and dataset path used
   - Environment/kernel used

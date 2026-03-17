@@ -6,6 +6,7 @@ This project advances in weekly increments.
 
 This roadmap gives high-level phase direction only.
 Detailed instructions live in milestone and week README files.
+Use the learner path in order and avoid skipping directly to week tickets.
 
 Navigation order:
 1. [../README.md](../README.md)
@@ -18,8 +19,13 @@ Navigation order:
 
 Active learning path:
 - `M0` onboarding (week-01)
-- `M1` data foundations (week-01 and week-02)
+- `M1` foundations to reproducible analysis (week-01 to week-04)
 - `M2` local ETL foundations and reliability (week-01 to week-04)
+
+Expected learner output flow:
+- `M0` -> stable setup and first collaboration habits
+- `M1` -> Python basics, SQL basics, reproducible notebook analysis, and handoff notes
+- `M2` -> local ETL workflow, quality checks, and runbook evidence
 
 ## Milestone Direction
 
@@ -32,7 +38,7 @@ Details:
 
 ### M1
 Objective:
-- understand data and produce reproducible notebook-based analysis.
+- build beginner programming and SQL confidence, then produce reproducible notebook-based analysis.
 
 Details:
 - [docs/tickets/milestones/m1/README.md](tickets/milestones/m1/README.md)

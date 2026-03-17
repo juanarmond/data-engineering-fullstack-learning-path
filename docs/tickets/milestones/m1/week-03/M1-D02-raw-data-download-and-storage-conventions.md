@@ -13,10 +13,10 @@ Download first raw data files and store them with clear naming conventions.
 Consistent raw data organization prevents confusion and makes automation easier later.
 
 ## Tasks
-- Create or confirm raw data folder structure (for example `data/raw/<source>/`).
+- Create or confirm raw data folder structure under `local/learning-workspace/m1/data/raw/`.
 - Download selected CSV file(s) manually.
 - Define and apply file naming convention (league, season, date if needed).
-- Document where files are stored and why the convention was chosen.
+- Document where files are stored and why the convention was chosen in `local/learning-workspace/m1/week-03/notes/d02-storage-conventions.md`.
 
 ## Acceptance Criteria
 - Raw files exist in a predictable folder.
@@ -32,9 +32,9 @@ Command usage can vary by OS and shell. If a command in this ticket does not wor
 
 ## Notes
 Do not automate download in this ticket.
+Keep the raw file path stable so M2 can reuse it later without guessing.
 ## Supplemental Reading
 
 - pandas Documentation: https://pandas.pydata.org/docs/
 - Jupyter Documentation: https://docs.jupyter.org/
 - Python pathlib: https://docs.python.org/3/library/pathlib.html
-

@@ -4,7 +4,7 @@
 
 This track defines required Python project tooling for this repository.
 
-Complete this after M0 Week 1 and before finishing M1 Week 2.
+Complete this during M0 Week 1 before starting notebook-heavy M1 work.
 
 ## Why Learn This
 
@@ -30,7 +30,8 @@ Then verify:
 poetry --version
 ```
 
-If the command is not found, add Poetry's bin directory to your shell path based on your OS.
+If the command is not found, fix Poetry installation and your shell `PATH` first:
+- See [setup-verification.md](setup-verification.md) ("Poetry Not Found").
 
 ## Step 2: Create a Learning Branch
 
@@ -42,15 +43,18 @@ git checkout -b chore/poetry-black-learning
 
 ## Step 3: Initialize Poetry in This Repo
 
+This repository already includes `pyproject.toml`.
+Do not run `poetry init` here.
+
 ```bash
-poetry init
+poetry config virtualenvs.in-project true
+poetry install
 ```
 
-Use defaults if you are unsure, then add core packages:
+If you want to confirm which packages are installed, inspect `pyproject.toml` and then run:
 
 ```bash
-poetry add pandas jupyter
-poetry add --group dev black
+poetry show --tree
 ```
 
 ## Step 4: Run Commands Through Poetry
@@ -76,13 +80,7 @@ Expected behavior:
 
 ## Step 6: Add Basic Black Configuration
 
-Add this in `pyproject.toml`:
-
-```toml
-[tool.black]
-line-length = 88
-target-version = ["py311", "py312"]
-```
+`pyproject.toml` already includes basic Black configuration for this repo.
 
 ## Suggested Validation Commands
 
@@ -96,3 +94,13 @@ poetry run black --check .
 
 - This track is mandatory for all learners in this repository.
 - Keep command usage consistent in notes/runbook (`poetry run ...`).
+- If `poetry run ...` fails, fix that before moving to M1 tickets.
+
+## Why `poetry.lock` Exists
+
+This repo commits `poetry.lock` on purpose.
+It pins exact dependency versions so two learners can run the same notebook/ETL steps and get the same environment.
+
+`poetry.lock` should only change when:
+- the project dependencies change intentionally (for example you add or upgrade a package), or
+- you are asked to refresh the lockfile as part of a documented maintenance step.

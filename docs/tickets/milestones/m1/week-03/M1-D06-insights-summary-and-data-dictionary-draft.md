@@ -13,8 +13,8 @@ Document initial insights and create a first draft data dictionary.
 Clear documentation converts exploration work into reusable project knowledge.
 
 ## Tasks
-- Summarize key findings from profiling and quality checks.
-- Draft a data dictionary for important fields (name, meaning, example).
+- Summarize key findings from profiling and quality checks in `local/learning-workspace/m1/week-03/notes/d06-insights.md`.
+- Draft a data dictionary for important fields (name, meaning, example) in `local/learning-workspace/m1/week-03/notes/data-dictionary-draft.md`.
 - Note columns that are unclear and need follow-up.
 - Record assumptions made during exploration.
 
@@ -34,4 +34,3 @@ This is a draft artifact and can evolve in later milestones.
 - pandas Documentation: https://pandas.pydata.org/docs/
 - Jupyter Documentation: https://docs.jupyter.org/
 - Python pathlib: https://docs.python.org/3/library/pathlib.html
-

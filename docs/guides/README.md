@@ -6,6 +6,7 @@ Practical references for common commands and workflows used in this project.
 
 - [homebrew-installation-setup.md](homebrew-installation-setup.md)
 - [poetry-black-learning-track.md](poetry-black-learning-track.md)
+- [setup-verification.md](setup-verification.md)
 - [terminal-quick-reference.md](terminal-quick-reference.md)
 - [git-workflow-quick-reference.md](git-workflow-quick-reference.md)
 - [jupyter-notebook-run-commands.md](jupyter-notebook-run-commands.md)

@@ -17,6 +17,7 @@ Early quality checks establish a baseline and prepare for later scripted validat
 - Validate schema expectations (column presence and basic types).
 - Identify rows failing each check.
 - Record pass/fail status and example failing records.
+- Summarize the most important outcomes in `local/learning-workspace/m1/week-03/notes/d05-quality-checks.md`.
 - Keep quality checks under a dedicated notebook section with clear markdown heading.
 
 ## Acceptance Criteria
@@ -36,4 +37,3 @@ Keep checks notebook-based for now; ingestion automation is introduced in M2.
 - pandas Documentation: https://pandas.pydata.org/docs/
 - Jupyter Documentation: https://docs.jupyter.org/
 - Python pathlib: https://docs.python.org/3/library/pathlib.html
-

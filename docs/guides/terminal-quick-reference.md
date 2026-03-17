@@ -20,17 +20,18 @@ rg --files docs/tickets/milestones/m1/week-02
 
 ```bash
 mkdir -p local/learning-workspace/m1/week-01/notebooks
-cp source.csv local/learning-workspace/m1/data/raw/BRA.csv
+cp source.csv local/learning-workspace/m1/data/raw/your_chosen_dataset.csv
 mv old-name.md new-name.md
 rm -rf local/learning-workspace/m1/week-02/data
 ```
 
-## Python and Pip
+## Python and Poetry
 
 ```bash
 python --version
-python -m pip --version
-python -m pip install pandas jupyter
+poetry --version
+poetry run python --version
+poetry run jupyter --version
 ```
 
 ## Useful Checks

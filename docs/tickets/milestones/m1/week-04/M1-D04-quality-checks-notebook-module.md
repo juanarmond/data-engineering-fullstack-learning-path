@@ -20,7 +20,7 @@ Quality checks are simple rules to detect data problems early. For this ticket, 
 - basic type check: verify key columns use expected types when possible.
 
 ## Tasks
-- Add a dedicated quality-check section to the Week 2 notebook.
+- Add a dedicated quality-check section to the Week 4 notebook.
 - Implement checks for required columns, null thresholds, duplicates, and basic types.
 - Show pass/fail summary for each check.
 - Display sample failing rows when checks fail.
@@ -41,7 +41,7 @@ Quality checks are simple rules to detect data problems early. For this ticket, 
 
 ## Verification
 - Restart kernel and run all cells.
-- Confirm results align with Week 1 quality-check logic.
+- Confirm results align with Week 3 quality-check logic.
 
 ## OS and Research Note
 Notebook and filesystem commands can vary by OS and shell. If a command fails, research the equivalent for your environment and document it.
@@ -53,4 +53,3 @@ Keep this notebook-based; script extraction can happen in a later milestone.
 - pandas Documentation: https://pandas.pydata.org/docs/
 - Jupyter Documentation: https://docs.jupyter.org/
 - Python pathlib: https://docs.python.org/3/library/pathlib.html
-

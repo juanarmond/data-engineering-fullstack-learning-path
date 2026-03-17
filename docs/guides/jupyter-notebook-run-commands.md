@@ -3,14 +3,18 @@
 ## Run Notebook in Place (CLI)
 
 ```bash
-python -m jupyter nbconvert --to notebook --execute --inplace local/learning-workspace/m1/week-01/notebooks/m1_w1_lessons.ipynb
-python -m jupyter nbconvert --to notebook --execute --inplace local/learning-workspace/m1/week-02/notebooks/m1_w2_analysis.ipynb
+python -m jupyter nbconvert --to notebook --execute --inplace local/learning-workspace/m1/week-01/notebooks/m1_w1_python_basics.ipynb
+python -m jupyter nbconvert --to notebook --execute --inplace local/learning-workspace/m1/week-02/notebooks/m1_w2_sql_basics.ipynb
+python -m jupyter nbconvert --to notebook --execute --inplace local/learning-workspace/m1/week-03/notebooks/m1_w3_analysis.ipynb
+python -m jupyter nbconvert --to notebook --execute --inplace local/learning-workspace/m1/week-04/notebooks/m1_w4_analysis.ipynb
 ```
 
 ## Run With Shared Local Teacher Env
 
 ```bash
-local/learning-workspace/.venv/bin/python -m jupyter nbconvert --to notebook --execute --inplace local/learning-workspace/m1/week-02/notebooks/m1_w2_analysis.ipynb
+poetry run python -m jupyter nbconvert --to notebook --execute --inplace local/learning-workspace/m1/week-01/notebooks/m1_w1_python_basics.ipynb
+poetry run python -m jupyter nbconvert --to notebook --execute --inplace local/learning-workspace/m1/week-02/notebooks/m1_w2_sql_basics.ipynb
+poetry run python -m jupyter nbconvert --to notebook --execute --inplace local/learning-workspace/m1/week-04/notebooks/m1_w4_analysis.ipynb
 ```
 
 ## VS Code Notebook Run Order

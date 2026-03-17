@@ -1,5 +1,21 @@
 # Troubleshooting Common Errors
 
+## Before You Panic
+
+Getting stuck is normal in this repo.
+Many tickets are meant to teach you how to read errors, verify assumptions, and recover step by step.
+
+Use this recovery order:
+1. Re-read the current ticket and week README.
+2. Check the exact file path the ticket expects.
+3. Read the full error message, not just the first line.
+4. Restart the notebook kernel or rerun the command from a clean state.
+5. Use the setup verification guide if tooling feels broken.
+6. Look up the official docs for the command, library, or error you hit.
+7. Write down what you tried and what changed.
+
+If you solve the issue after research and retrying, that still counts as successful progress.
+
 ## `FileNotFoundError` for CSV
 
 Checks:
@@ -15,14 +31,14 @@ Fix:
 ## `No module named pandas` (or other package)
 
 ```bash
-source local/learning-workspace/.venv/bin/activate
-python -m pip install pandas jupyter ipykernel
+poetry install
+poetry run python -c "import pandas as pd; print(pd.__version__)"
 ```
 
 ## Kernel Not Visible in VS Code
 
 ```bash
-python -m ipykernel install --user --name local-milestones --display-name "Local Milestones (.venv)"
+poetry run python -m ipykernel install --user --name local-milestones --display-name "Local Milestones (.venv)"
 jupyter kernelspec list | rg local-milestones
 ```
 

@@ -27,6 +27,13 @@ By the end of M0, you should be able to:
 3. Complete Day 1 to Day 7 in order.
 4. Finish the weekly review ticket before moving to M1.
 
+## Expected Milestone Outputs
+
+- `local/learning-workspace/m0/week-01/` exists and is usable.
+- Python, Poetry, and Black checks pass from this repo.
+- The learner can run basic git and Python verification commands.
+- A first branch/commit/PR workflow has been practiced.
+
 ## Exit Criteria
 You are ready for M1 when:
 - all M0 tickets are complete,

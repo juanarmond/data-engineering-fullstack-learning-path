@@ -13,7 +13,7 @@ Create a notebook that can load and preview the selected dataset.
 Notebook-based exploration helps learners understand data before building scripts.
 
 ## Tasks
-- Create the Week 1 notebook at `local/learning-workspace/m1/week-01/notebooks/m1_w1_lessons.ipynb`.
+- Create the Week 3 notebook at `local/learning-workspace/m1/week-03/notebooks/m1_w3_analysis.ipynb`.
 - Import required libraries (`pandas` at minimum).
 - Load the raw CSV into a DataFrame.
 - Display head, shape, and column list.

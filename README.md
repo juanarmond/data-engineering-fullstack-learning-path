@@ -17,6 +17,15 @@ It is a structured learning journey where you:
 
 The structure mirrors real team workflow: small scoped tasks, explicit deliverables, and weekly handoffs.
 
+## Start Here (5 Minutes)
+
+1. Read [docs/roadmap.md](docs/roadmap.md).
+2. Read [docs/tickets/README.md](docs/tickets/README.md).
+3. Create your first local workspace folder:
+   - `mkdir -p local/learning-workspace/m0/week-01`
+4. Open [docs/tickets/milestones/m0/README.md](docs/tickets/milestones/m0/README.md).
+5. Continue to [docs/tickets/milestones/m0/week-01/README.md](docs/tickets/milestones/m0/week-01/README.md) and complete Day 1 first.
+
 ## Project Goal
 
 Build an end-to-end portfolio project while learning core engineering behaviors:
@@ -27,6 +36,13 @@ Build an end-to-end portfolio project while learning core engineering behaviors:
 - and shipping incrementally.
 
 By the end of the full path, you should be able to explain both your technical choices and your delivery process.
+
+## By The End Of This Path
+
+- `M0`: a working local setup, a repeatable Python toolchain, and a first branch/commit/PR workflow.
+- `M1`: Python basics, SQL basics, a reproducible notebook workflow, stored raw data, profiling notes, quality-check notes, and handoff notes.
+- `M2`: a local ETL workflow with extract/transform/load stages, quality checks, modeled outputs, tests, and runbook notes.
+- Later milestones: API, dashboard, and deployment work built on top of the earlier data workflow.
 
 ## Canonical Learning Path
 
@@ -39,18 +55,29 @@ Use this path in order:
 
 Then follow each milestone's week/day tickets in sequence.
 
+## Where Your Work Lives
+
+- Learner outputs should live under `local/learning-workspace/`.
+- That folder is gitignored by design so you can practice safely without polluting the course docs.
+- Repository docs and ticket files stay in `docs/` and are the part you would normally review or update in git.
+
 ## Current Scope
 
 - `M0` onboarding fundamentals
-- `M1` data foundations and notebook reproducibility
+- `M1` Python basics, SQL basics, and reproducible notebook analysis
 - `M2` local ETL foundations and reliability (week-01 to week-04)
 
 ## Mandatory Tooling Standard
 
-All learners must complete the Poetry + Black setup using:
+All learners must complete the Poetry + Black setup using the tracked project configuration in `pyproject.toml`:
 - [docs/guides/poetry-black-learning-track.md](docs/guides/poetry-black-learning-track.md)
 
 This is a required part of the learning path and is validated during milestone checks.
+Use `poetry ...` and `poetry run ...` as the canonical command style across this repo.
+If `poetry` is not found on your machine, follow the OS-specific setup verification steps in:
+- [docs/guides/setup-verification.md](docs/guides/setup-verification.md)
+
+Note: `poetry.lock` is committed to this repo on purpose so installs are reproducible across learners and machines.
 
 ## Guides
 

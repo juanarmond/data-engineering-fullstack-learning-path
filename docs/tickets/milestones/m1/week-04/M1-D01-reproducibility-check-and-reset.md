@@ -7,13 +7,13 @@ M1
 D01
 
 ## Goal
-Confirm that Week 1 outputs can be reproduced from a clean start.
+Confirm that Week 3 outputs can be reproduced from a clean start.
 
 ## Context
 Engineering work must be reproducible by another contributor on another machine.
 
 ## Tasks
-- Re-open `local/learning-workspace/m1/week-01/notebooks/m1_w1_lessons.ipynb` from a fresh kernel.
+- Re-open `local/learning-workspace/m1/week-03/notebooks/m1_w3_analysis.ipynb` from a fresh kernel.
 - Re-run all cells top to bottom.
 - Record any manual steps that were required but not documented.
 - Fix notebook order issues (hidden state, missing imports, out-of-order cells).

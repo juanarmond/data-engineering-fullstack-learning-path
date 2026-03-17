@@ -22,10 +22,10 @@ Profile metrics are simple numbers that describe the dataset shape and completen
 - unique count for key columns (for example team names).
 
 ## Tasks
-- Add a dedicated profiling section to the Week 2 notebook.
+- Add a dedicated profiling section to the Week 4 notebook.
 - Build reusable notebook cells/functions for row/column count, null percentages, date range, and key unique counts.
 - Parameterize key values in a config cell (for example input path and key columns).
-- Validate profiling outputs against Week 1 results.
+- Validate profiling outputs against Week 3 results.
 - Ensure profiling section has a clear markdown title so outputs are easy to locate.
 
 ## Expected Output Example
@@ -43,7 +43,7 @@ Profile metrics are simple numbers that describe the dataset shape and completen
 
 ## Verification
 - Restart kernel and run all cells.
-- Confirm profiling outputs match expected values from Week 1.
+- Confirm profiling outputs match expected values from Week 3.
 
 ## OS and Research Note
 Python and notebook launch commands can vary by OS. If examples fail, research the equivalent command for your OS and document what you used.
@@ -55,4 +55,3 @@ Keep implementation in notebook form only for this week.
 - pandas Documentation: https://pandas.pydata.org/docs/
 - Jupyter Documentation: https://docs.jupyter.org/
 - Python pathlib: https://docs.python.org/3/library/pathlib.html
-

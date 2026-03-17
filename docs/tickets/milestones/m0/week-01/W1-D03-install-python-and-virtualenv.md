@@ -1,4 +1,4 @@
-# Ticket: Install Python and Virtual Environment Tooling
+# Ticket: Install Python and Poetry Environment Tooling
 
 ## Milestone
 M0
@@ -7,49 +7,51 @@ M0
 D03
 
 ## Goal
-Install Python and run code inside an isolated environment with Poetry-based dependency management.
+Install Python and set up the Poetry-managed project environment used by this repository.
 
 ## Context
 Python is the backbone for data engineering and backend work in this project.
 
 ## Tasks
 - Install Python 3.11+.
-- Create a virtual environment in `.venv`.
-- Activate the environment and upgrade `pip`.
 - Install Poetry.
-- Install Black using Poetry dev dependencies.
+- Configure Poetry to create the environment in `.venv`.
+- Install the tracked project dependencies from `pyproject.toml`.
+- Verify Black through Poetry.
 
 ## How To Do It (Basic Steps)
 - On macOS, prefer Homebrew setup from [docs/guides/homebrew-installation-setup.md](../../../guides/homebrew-installation-setup.md).
 - Alternative: install Python from `https://www.python.org/downloads/`.
 - Confirm install with `python --version` (or `python3 --version` when applicable).
-- In your project folder run: `python -m venv .venv`.
-- Activate it:
-  - macOS/Linux: `source .venv/bin/activate`
-  - Windows PowerShell: `.venv\\Scripts\\Activate.ps1`
-- Upgrade pip: `python -m pip install --upgrade pip`.
 - Install Poetry (official installer): `curl -sSL https://install.python-poetry.org | python3 -`.
 - Verify Poetry: `poetry --version`.
-- Initialize project metadata if missing: `poetry init -n`.
-- Add Black as a dev dependency: `poetry add --group dev black`.
+- In this repo, run `poetry config virtualenvs.in-project true`.
+- Install the tracked dependencies: `poetry install`.
 - Verify formatter: `poetry run black --version`.
+- Verify Python through Poetry: `poetry run python --version`.
+If something fails, use [docs/guides/setup-verification.md](../../../guides/setup-verification.md) to verify the full setup path.
 
 ## Acceptance Criteria
 - Python and pip run correctly.
-- Virtual environment can be created and activated.
 - Poetry is installed and available in terminal.
+- The repo creates a Poetry-managed `.venv`.
 - Black is installed and runnable through Poetry.
 
 ## Verification
 - `python --version`
-- `python -m venv .venv`
-- `source .venv/bin/activate` (macOS/Linux) or equivalent on Windows
-- `python -m pip --version`
 - `poetry --version`
+- `poetry install`
+- `ls -la .venv`
 - `poetry run black --version`
+- `poetry run python --version`
 
 ## Notes
 Use `.venv` in project root and never commit it.
+
+Important mental model:
+- You are not manually building a separate `venv` with `pip install ...`.
+- Poetry is the tool that creates and manages the project environment for this repo.
+- The `.venv/` folder is just the local environment Poetry creates after `poetry install`.
 
 Mandatory follow-up:
 - Complete [docs/guides/poetry-black-learning-track.md](../../../guides/poetry-black-learning-track.md).

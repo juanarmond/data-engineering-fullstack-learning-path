@@ -33,33 +33,31 @@ docker --version
 
 ## 3) Install Python Tooling
 
+From the repo root, install Poetry and then use it to create a project-local `.venv`:
+
 ```bash
 python3 -m pip install --upgrade pip
-python3 -m pip install poetry black jupyter ipykernel pandas
+curl -sSL https://install.python-poetry.org | python3 -
+poetry config virtualenvs.in-project true
+poetry install
 ```
 
 Verify:
 
 ```bash
 poetry --version
-black --version
-python3 -m jupyter --version
+poetry run black --version
+poetry run jupyter --version
 ```
 
-## 4) Optional: local learning workspace environment
+## 4) Register reusable Jupyter kernel
 
 ```bash
-python3 -m venv local/learning-workspace/.venv
-source local/learning-workspace/.venv/bin/activate
-python -m pip install --upgrade pip
-python -m pip install pandas jupyter ipykernel poetry black
+poetry run python -m ipykernel install --user --name local-milestones --display-name "Local Milestones (.venv)"
 ```
 
-## 5) Register reusable Jupyter kernel
-
-```bash
-python -m ipykernel install --user --name local-milestones --display-name "Local Milestones (.venv)"
-```
+If `poetry` is not on your global shell `PATH`, fix that before continuing:
+- See [setup-verification.md](setup-verification.md) ("Poetry Not Found").
 
 ## Notes
 

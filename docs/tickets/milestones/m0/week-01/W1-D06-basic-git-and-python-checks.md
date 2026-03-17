@@ -27,10 +27,15 @@ Consistent command-line checks are a core daily engineering habit.
 - Run `python --version`.
 - Run `python -c "print('week-1-checks-ok')"`.
 - Run `poetry --version`.
+- Run `poetry run python --version`.
 - Run `poetry run black --check .`.
 - Run `ls -la local`.
 - Run `jupyter kernelspec list`.
 - If one command fails, fix it before moving on.
+If you are unsure what to fix, follow [docs/guides/setup-verification.md](../../../guides/setup-verification.md).
+
+Optional (recommended):
+- Run the beginner sanity check harness: `poetry run python scripts/sanity_check.py`
 
 ## Acceptance Criteria
 - Learner can explain what each command confirms.
@@ -45,6 +50,7 @@ Consistent command-line checks are a core daily engineering habit.
 - `python --version`
 - `python -c "print('week-1-checks-ok')"`
 - `poetry --version`
+- `poetry run python --version`
 - `poetry run black --check .`
 - `ls -la local`
 - `jupyter kernelspec list`

@@ -7,16 +7,17 @@ M1
 D07
 
 ## Goal
-Close M1 Week 1 with a structured review and readiness notes for Week 2.
+Close M1 Week 3 with a structured review and readiness notes for Week 4.
 
 ## Context
-Weekly review keeps momentum and reduces confusion before Week 2 reproducibility work starts.
+Weekly review keeps momentum and reduces confusion before Week 4 reproducibility work starts.
 
 ## Tasks
-- List what was completed during M1 Week 1.
+- List what was completed during M1 Week 3.
 - List blockers, open questions, and unresolved data issues.
-- Define what should be improved for reproducibility in Week 2.
-- Capture recommended priorities for the first ticket of M1 Week 2.
+- Define what should be improved for reproducibility in Week 4.
+- Capture recommended priorities for the first ticket of M1 Week 4.
+- Save the handoff note to `local/learning-workspace/m1/week-03/notes/d07-weekly-review.md`.
 
 ## Acceptance Criteria
 - Weekly summary includes completed work and unresolved items.
@@ -24,14 +25,13 @@ Weekly review keeps momentum and reduces confusion before Week 2 reproducibility
 - Next-step priorities are explicit.
 
 ## Verification
-- Manual review of M1 Week 1 notes against completed tickets.
+- Manual review of M1 Week 3 notes against completed tickets.
 - Confirm handoff notes are understandable without verbal context.
 
 ## Notes
-Avoid starting Week 2 implementation in this ticket; focus on handoff clarity.
+Avoid starting Week 4 implementation in this ticket; focus on handoff clarity.
 ## Supplemental Reading
 
 - pandas Documentation: https://pandas.pydata.org/docs/
 - Jupyter Documentation: https://docs.jupyter.org/
 - Python pathlib: https://docs.python.org/3/library/pathlib.html
-
